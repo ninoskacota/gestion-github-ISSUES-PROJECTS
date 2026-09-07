@@ -1,0 +1,12 @@
+let estudiantes = [
+  { id: 1, nombre: "Saul", carrera: "Sistemas" },
+  { id: 2, nombre: "Ana", carrera: "Informática" }
+];
+
+// Función para eliminar estudiante por ID
+function eliminarEstudiante(id) {
+  estudiantes = estudiantes.filter(est => est.id !== id);
+  console.log("Estudiante eliminado. Lista actual:", estudiantes);
+}
+
+eliminarEstudiante(1);
