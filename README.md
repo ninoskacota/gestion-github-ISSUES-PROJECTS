@@ -21,3 +21,14 @@ Organizar las tareas del proyecto utilizando:
 - Milestones
 - GitHub Projects
 - Kanban
+
+## Módulo de materias
+Objetivo del módulo:Gestionar y administrar las materias que correspondan  a los estudiantes
+## Datos que maneja:
+- Sigla
+- Nombre
+- Semestre
+## Funciones principales:
+- Registrar nuevas materias.
+- Asignar materias a un semestre que esta cursando y que esta habilitado .
+- Listar las materias disponibles que tiene permitido el estudiante .
